@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A</key>
+	<array>
+		<string>Aerosmith</string>
+		<string>Aerosmith 1</string>
+		<string>Aerosmith 2</string>
+		<string>Aerosmith 3</string>
+	</array>
+	<key>B</key>
+	<array>
+		<string>Banda Eva</string>
+		<string>Banda Eva 1</string>
+		<string>Banda Eva 2</string>
+		<string>Banda Eva 3</string>
+	</array>
+	<key>C</key>
+	<array>
+		<string>C</string>
+		<string>C 1</string>
+		<string>C 2</string>
+		<string>C 3</string>
+	</array>
+	<key>D</key>
+	<array>
+		<string>D </string>
+		<string>D 1</string>
+		<string>D 2</string>
+		<string>D 3</string>
+	</array>
+	<key>E</key>
+	<array>
+		<string>E</string>
+		<string>E 1</string>
+		<string>E 2</string>
+		<string>E 3</string>
+	</array>
+	<key>F</key>
+	<array>
+		<string>F</string>
+		<string>F 1</string>
+		<string>F 2</string>
+		<string>F 3</string>
+	</array>
+</dict>
+</plist>
