@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+"Alerta título" = "Messaggio";
+"Alerta mensagem" = "Il tuo nome: ";
+"Label campo nome" = "Inserisci il tuo nome: ";
+"Botão título" = "Inviare";

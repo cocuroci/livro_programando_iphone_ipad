@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  BookLocalizable
+
+  Created by André Cocuroci on 17/05/13.
+  Copyright (c) 2013 André Cocuroci. All rights reserved.
+*/
+
+"Alerta título" = "Alerta";
+"Alerta mensagem" = "O nome digitado foi: ";
+"Label campo nome" = "Informe o seu nome: ";
+"Botão título" = "Processar";
