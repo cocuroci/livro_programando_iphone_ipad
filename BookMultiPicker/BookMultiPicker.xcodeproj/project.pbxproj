@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DAE1C6C1746792300AB9DCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAE1C6B1746792300AB9DCB /* UIKit.framework */; };
+		7DAE1C6E1746792300AB9DCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAE1C6D1746792300AB9DCB /* Foundation.framework */; };
+		7DAE1C701746792300AB9DCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAE1C6F1746792300AB9DCB /* CoreGraphics.framework */; };
+		7DAE1C761746792300AB9DCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE1C741746792300AB9DCB /* InfoPlist.strings */; };
+		7DAE1C781746792300AB9DCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE1C771746792300AB9DCB /* main.m */; };
+		7DAE1C7C1746792300AB9DCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE1C7B1746792300AB9DCB /* AppDelegate.m */; };
+		7DAE1C7E1746792300AB9DCB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE1C7D1746792300AB9DCB /* Default.png */; };
+		7DAE1C801746792300AB9DCB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE1C7F1746792300AB9DCB /* Default@2x.png */; };
+		7DAE1C821746792300AB9DCB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE1C811746792300AB9DCB /* Default-568h@2x.png */; };
+		7DAE1C851746792300AB9DCB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAE1C831746792300AB9DCB /* MainStoryboard.storyboard */; };
+		7DAE1C881746792300AB9DCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAE1C871746792300AB9DCB /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DAE1C681746792300AB9DCB /* BookMultiPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMultiPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAE1C6B1746792300AB9DCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DAE1C6D1746792300AB9DCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DAE1C6F1746792300AB9DCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DAE1C731746792300AB9DCB /* BookMultiPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookMultiPicker-Info.plist"; sourceTree = "<group>"; };
+		7DAE1C751746792300AB9DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DAE1C771746792300AB9DCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DAE1C791746792300AB9DCB /* BookMultiPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookMultiPicker-Prefix.pch"; sourceTree = "<group>"; };
+		7DAE1C7A1746792300AB9DCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DAE1C7B1746792300AB9DCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DAE1C7D1746792300AB9DCB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7DAE1C7F1746792300AB9DCB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7DAE1C811746792300AB9DCB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7DAE1C841746792300AB9DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7DAE1C861746792300AB9DCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DAE1C871746792300AB9DCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DAE1C651746792300AB9DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAE1C6C1746792300AB9DCB /* UIKit.framework in Frameworks */,
+				7DAE1C6E1746792300AB9DCB /* Foundation.framework in Frameworks */,
+				7DAE1C701746792300AB9DCB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DAE1C5F1746792300AB9DCB = {
+			isa = PBXGroup;
+			children = (
+				7DAE1C711746792300AB9DCB /* BookMultiPicker */,
+				7DAE1C6A1746792300AB9DCB /* Frameworks */,
+				7DAE1C691746792300AB9DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DAE1C691746792300AB9DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DAE1C681746792300AB9DCB /* BookMultiPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DAE1C6A1746792300AB9DCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DAE1C6B1746792300AB9DCB /* UIKit.framework */,
+				7DAE1C6D1746792300AB9DCB /* Foundation.framework */,
+				7DAE1C6F1746792300AB9DCB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DAE1C711746792300AB9DCB /* BookMultiPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7DAE1C7A1746792300AB9DCB /* AppDelegate.h */,
+				7DAE1C7B1746792300AB9DCB /* AppDelegate.m */,
+				7DAE1C831746792300AB9DCB /* MainStoryboard.storyboard */,
+				7DAE1C861746792300AB9DCB /* ViewController.h */,
+				7DAE1C871746792300AB9DCB /* ViewController.m */,
+				7DAE1C721746792300AB9DCB /* Supporting Files */,
+			);
+			path = BookMultiPicker;
+			sourceTree = "<group>";
+		};
+		7DAE1C721746792300AB9DCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DAE1C731746792300AB9DCB /* BookMultiPicker-Info.plist */,
+				7DAE1C741746792300AB9DCB /* InfoPlist.strings */,
+				7DAE1C771746792300AB9DCB /* main.m */,
+				7DAE1C791746792300AB9DCB /* BookMultiPicker-Prefix.pch */,
+				7DAE1C7D1746792300AB9DCB /* Default.png */,
+				7DAE1C7F1746792300AB9DCB /* Default@2x.png */,
+				7DAE1C811746792300AB9DCB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DAE1C671746792300AB9DCB /* BookMultiPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DAE1C8B1746792300AB9DCB /* Build configuration list for PBXNativeTarget "BookMultiPicker" */;
+			buildPhases = (
+				7DAE1C641746792300AB9DCB /* Sources */,
+				7DAE1C651746792300AB9DCB /* Frameworks */,
+				7DAE1C661746792300AB9DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookMultiPicker;
+			productName = BookMultiPicker;
+			productReference = 7DAE1C681746792300AB9DCB /* BookMultiPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DAE1C601746792300AB9DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "André Cocuroci";
+			};
+			buildConfigurationList = 7DAE1C631746792300AB9DCB /* Build configuration list for PBXProject "BookMultiPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DAE1C5F1746792300AB9DCB;
+			productRefGroup = 7DAE1C691746792300AB9DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DAE1C671746792300AB9DCB /* BookMultiPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DAE1C661746792300AB9DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAE1C761746792300AB9DCB /* InfoPlist.strings in Resources */,
+				7DAE1C7E1746792300AB9DCB /* Default.png in Resources */,
+				7DAE1C801746792300AB9DCB /* Default@2x.png in Resources */,
+				7DAE1C821746792300AB9DCB /* Default-568h@2x.png in Resources */,
+				7DAE1C851746792300AB9DCB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DAE1C641746792300AB9DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAE1C781746792300AB9DCB /* main.m in Sources */,
+				7DAE1C7C1746792300AB9DCB /* AppDelegate.m in Sources */,
+				7DAE1C881746792300AB9DCB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DAE1C741746792300AB9DCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DAE1C751746792300AB9DCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DAE1C831746792300AB9DCB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DAE1C841746792300AB9DCB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DAE1C891746792300AB9DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DAE1C8A1746792300AB9DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DAE1C8C1746792300AB9DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookMultiPicker/BookMultiPicker-Prefix.pch";
+				INFOPLIST_FILE = "BookMultiPicker/BookMultiPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DAE1C8D1746792300AB9DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookMultiPicker/BookMultiPicker-Prefix.pch";
+				INFOPLIST_FILE = "BookMultiPicker/BookMultiPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DAE1C631746792300AB9DCB /* Build configuration list for PBXProject "BookMultiPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAE1C891746792300AB9DCB /* Debug */,
+				7DAE1C8A1746792300AB9DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DAE1C8B1746792300AB9DCB /* Build configuration list for PBXNativeTarget "BookMultiPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAE1C8C1746792300AB9DCB /* Debug */,
+				7DAE1C8D1746792300AB9DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DAE1C601746792300AB9DCB /* Project object */;
+}
