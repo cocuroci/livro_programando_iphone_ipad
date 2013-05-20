@@ -1,6 +1,3 @@
 /* Localized versions of Info.plist keys */
 
-"Alerta título" = "Alerta";
-"Alerta mensagem" = "O nome digitado foi: ";
-"Label campo nome" = "Informe o seu nome: ";
-"Botão título" = "Processar";
+CFBundleDisplayName = "Olá";

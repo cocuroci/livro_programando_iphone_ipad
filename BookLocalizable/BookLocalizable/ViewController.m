@@ -33,7 +33,16 @@
 
 -(IBAction)process
 {
+    NSString *tempString = [[NSString alloc] initWithFormat:@"%@ %@", NSLocalizedString(@"Alerta mensagem", nil), self.myTextField.text];
     
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Alerta título", nil) message:tempString delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    [alert show];
+}
+
+-(IBAction)textFieldReturn:(id)sender
+{
+    [sender resignFirstResponder];
 }
 
 @end

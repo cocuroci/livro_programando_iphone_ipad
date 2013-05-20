@@ -15,5 +15,6 @@
 @property (nonatomic, strong) IBOutlet UIButton *myButton;
 
 -(IBAction)process;
+-(IBAction)textFieldReturn:(id)sender;
 
 @end
