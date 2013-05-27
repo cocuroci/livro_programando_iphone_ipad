@@ -12,6 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSInteger old = [[UIApplication sharedApplication] applicationIconBadgeNumber];
+    
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:old-1];
+    
     // Override point for customization after application launch.
     return YES;
 }

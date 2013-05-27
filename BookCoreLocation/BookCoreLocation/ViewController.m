@@ -43,7 +43,7 @@
         myCustomAnotation.subtitle = @"Seu ponto de partida";
         
         [self.myMapView addAnnotation:myCustomAnotation];
-        MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance([myCustomAnotation coordinate], 500, 500);
+        MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance([myCustomAnotation coordinate], 100, 100);
         
         [self.myMapView setRegion:region animated:YES];
     }

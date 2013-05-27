@@ -312,6 +312,7 @@
 				7D3BAF4E1745447C0085020F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
